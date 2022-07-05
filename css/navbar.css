@@ -1,0 +1,36 @@
+nav {
+  background-color: var(--navbarColor);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0px;
+  width: 100%;
+}
+
+.navbar ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar ul li {
+  list-style: none;
+}
+.navbar ul li a {
+  text-decoration: none;
+  font-size: 18px;
+  color: var(--white);
+  transition: 0.5s;
+}
+.navbar ul li a:hover {
+  color: var(--orange);
+}
+.navbar ul li select {
+  background: transparent;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  padding: 0px 10px;
+}
+.navbar ul li select option {
+  background-color: var(--navbarColor);
+}/*# sourceMappingURL=navbar.css.map */

@@ -1,0 +1,32 @@
+nav
+  background-color: var(--navbarColor)
+  display: flex
+  justify-content: center
+  align-items: center
+  padding: 20px 0px
+  width: 100%
+  // position: fixed
+  // z-index: 1000
+.navbar
+  ul
+    display: flex
+    justify-content: space-between
+    align-items: center
+    li
+      list-style: none
+      a
+        text-decoration: none
+        font-size: 18px
+        color: var(--white)
+        transition: 0.5s
+        &:hover
+          color: var(--orange)  
+      select
+        background: transparent
+        font-size: 18px
+        border: none
+        outline: none
+        padding: 0px 10px
+        option
+          // color: var(--black)
+          background-color: var(--navbarColor)
