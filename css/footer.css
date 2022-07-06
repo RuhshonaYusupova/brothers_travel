@@ -2,12 +2,42 @@ footer {
   background-color: var(--footerColor);
   padding-top: 30px;
 }
-footer .footer-card {
-  padding: 0 10px;
+footer .parent > [class*=col-] {
+  margin: 20px 0px;
 }
-
-.contant_card p {
-  padding: 10px 0px;
+footer img {
+  padding-bottom: 10px;
+  text-align: center;
+  display: inline-block;
+}
+footer .p {
+  font-size: 16px;
+  line-height: 30px;
+  text-align: center;
+  font-weight: 400;
+}
+footer .p .footer_h1 {
+  font-size: 35px;
+  padding: 10px 0;
+}
+footer li {
+  list-style: none;
+  padding: 15px 0;
+}
+footer li a {
+  text-decoration: none;
+  font-size: 18px;
+  transition: 0.5s;
+}
+footer li a:hover {
+  color: var(--orange);
+}
+footer li p {
+  font-size: 18px;
+}
+footer li i {
+  padding-right: 15px;
+  font-size: 30px;
 }
 
 .copyright {
@@ -17,6 +47,17 @@ footer .footer-card {
 .copyright p {
   font-size: 18px;
   text-align: center;
+  font-weight: 400;
   padding: 20px 0px;
   border-top: 2px solid var(--white);
+}
+
+.social i:nth-child(1) {
+  color: #1877F2;
+}
+.social i:nth-child(2) {
+  color: #D82D7E;
+}
+.social i:nth-child(3) {
+  color: #CD201F;
 }/*# sourceMappingURL=footer.css.map */

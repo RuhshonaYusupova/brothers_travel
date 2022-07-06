@@ -1,16 +1,48 @@
 footer
   background-color: var(--footerColor)
   padding-top: 30px
-  .footer-card
-    padding: 0 10px
-
-.contant_card p
-  padding: 10px 0px
+  .parent > [class*="col-"]
+    margin: 20px 0px
+  img
+    padding-bottom: 10px
+    text-align: center
+    display: inline-block
+  .p
+    font-size: 16px
+    line-height: 30px
+    text-align: center
+    font-weight: 400
+    .footer_h1
+      font-size: 35px
+      padding: 10px 0
+  li
+    list-style: none
+    padding: 15px 0
+    a
+      text-decoration: none
+      font-size: 18px
+      transition: 0.5s
+      &:hover
+        color: var(--orange)
+    p
+      font-size: 18px  
+    i
+      padding-right: 15px  
+      font-size: 30px
 .copyright
   padding-top: 50px
 .copyright p
   font-size: 18px
   text-align: center
+  font-weight: 400
   padding: 20px 0px
   border-top: 2px solid var(--white)
-
+.social
+  i
+    &:nth-child(1)
+      color: #1877F2
+    &:nth-child(2)
+      color: #D82D7E
+    &:nth-child(3)
+      color: #CD201F
+      

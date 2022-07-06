@@ -1,0 +1,54 @@
+header {
+  background-image: url("../images/transportXizmati/bg.png");
+  background-size: cover;
+  position: relative;
+  width: 100%;
+  height: 100vh;
+}
+header section {
+  padding: 200px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+header section p.h1-subtitle {
+  font-size: 50px;
+  letter-spacing: 2px;
+}
+
+.h1 {
+  font-size: 35px;
+}
+
+#popular-places {
+  text-align: center;
+  padding: 50px 0px;
+}
+#popular-places .card {
+  position: relative;
+  width: 100%;
+  margin: 30px;
+  overflow: hidden;
+}
+#popular-places .card p {
+  position: absolute;
+  left: 0;
+  top: -100%;
+  color: var(--white);
+  font-size: 14px;
+  z-index: 1000;
+}
+#popular-places .card img {
+  width: 100%;
+  transition: 0.5s;
+}
+#popular-places .card:hover img {
+  opacity: 0.4;
+}
+#popular-places .card:hover p {
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 100;
+}/*# sourceMappingURL=transport.css.map */

@@ -1,0 +1,45 @@
+.h1 {
+  font-size: 35px;
+}
+
+.card-car {
+  padding: 50px 0;
+}
+.card-car img {
+  width: 100%;
+}
+
+#about {
+  background-color: var(--background);
+  padding: 100px 0px;
+}
+#about .about-card {
+  width: 100%;
+  background-color: var(--cardColor);
+  padding: 50px 150px;
+  border-radius: 20px;
+  text-align: center;
+}
+#about .about-card h1 {
+  font-size: 35px;
+  font-weight: 400;
+}
+#about .about-card p {
+  font-size: 16px;
+  line-height: 25px;
+  padding: 30px 0px;
+  font-weight: 400;
+}
+#about .about-card a {
+  text-decoration: none;
+  font-size: 18px;
+  background-color: var(--btnBg);
+  padding: 10px 50px;
+  border-radius: 20px;
+  border: 2px solid var(--btnBg);
+  transition: 0.5s;
+}
+#about .about-card a:hover {
+  background-color: transparent;
+  color: var(--btnBg);
+}/*# sourceMappingURL=aboutCard.css.map */

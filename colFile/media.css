@@ -8,9 +8,12 @@
 }  
 
 @media (max-width: 992px) {
-    .menu{
+    .navbar{
         display: none;
     }
+    .parent > [class*="col-"]{
+        text-align: center;
+     }
 }   
 
 @media (max-width: 768px){
@@ -18,5 +21,5 @@
 }
 
 @media (max-width: 576px){
-
+    
 }
