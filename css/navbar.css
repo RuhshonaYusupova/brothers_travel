@@ -1,36 +1,108 @@
+.black-bg {
+  display: none;
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  z-index: 10000;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
 nav {
   background-color: var(--navbarColor);
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   padding: 20px 0px;
   width: 100%;
+  position: fixed;
+  z-index: 1000;
+  margin-bottom: 100px;
 }
 
-.navbar ul {
+.navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  width: 100%;
 }
-.navbar ul li {
-  list-style: none;
+.navbar .navResIcon {
+  display: none;
 }
-.navbar ul li a {
+.navbar .navResIcon i {
+  font-size: 25px;
+  z-index: 1000;
+}
+.navbar a {
   text-decoration: none;
   font-size: 18px;
   color: var(--white);
   transition: 0.5s;
+  padding: 0px 15px;
 }
-.navbar ul li a:hover {
+.navbar a:hover {
   color: var(--orange);
 }
-.navbar ul li select {
+.navbar select {
   background: transparent;
   font-size: 18px;
   border: none;
   outline: none;
-  padding: 0px 10px;
+  padding: 0px 15px;
+  transition: 0.5s;
 }
-.navbar ul li select option {
+.navbar select:hover {
+  color: var(--orange);
+}
+.navbar select option {
+  background-color: var(--navbarColor);
+}
+
+.navbar-responsive {
+  position: fixed;
+  top: 0;
+  right: -200%;
+  z-index: 10000;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 400px;
+  height: 100vh;
+  background-color: var(--background);
+  transition: 0.5s;
+}
+.navbar-responsive .nav {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+}
+.navbar-responsive .nav i {
+  font-size: 30px;
+  color: var(--orange);
+}
+.navbar-responsive .nav a {
+  text-decoration: none;
+  font-size: 18px;
+  color: var(--white);
+  transition: 0.5s;
+  padding: 0px 15px;
+}
+.navbar-responsive .nav a:hover {
+  color: var(--orange);
+}
+.navbar-responsive .nav select {
+  background: transparent;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  padding: 0px 15px;
+  transition: 0.5s;
+}
+.navbar-responsive .nav select:hover {
+  color: var(--orange);
+}
+.navbar-responsive .nav select option {
   background-color: var(--navbarColor);
 }/*# sourceMappingURL=navbar.css.map */

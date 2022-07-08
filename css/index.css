@@ -1,6 +1,7 @@
 header {
   background-image: url("../images/index/bg.png");
   background-size: cover;
+  background-position: center;
   position: relative;
   width: 100%;
   height: 100vh;
@@ -68,10 +69,10 @@ header section p.h1-subtitle {
 #popular-places .card, #popular-restaurants .card, #transports .card {
   position: relative;
   width: 100%;
-  margin: 30px;
+  padding: 30px;
   overflow: hidden;
 }
-#popular-places .card p, #popular-restaurants .card p, #transports .card p {
+#popular-places .card p, #popular-places .card .btn, #popular-restaurants .card p, #popular-restaurants .card .btn, #transports .card p, #transports .card .btn {
   position: absolute;
   left: 0;
   top: -100%;
@@ -86,7 +87,7 @@ header section p.h1-subtitle {
 #popular-places .card:hover img, #popular-restaurants .card:hover img, #transports .card:hover img {
   opacity: 0.4;
 }
-#popular-places .card:hover p, #popular-restaurants .card:hover p, #transports .card:hover p {
+#popular-places .card:hover p, #popular-places .card .btn, #popular-restaurants .card:hover p, #popular-restaurants .card .btn, #transports .card:hover p, #transports .card .btn {
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);

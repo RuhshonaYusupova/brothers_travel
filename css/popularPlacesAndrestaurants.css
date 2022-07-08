@@ -1,6 +1,7 @@
 header {
   background-image: url("../images/mashhurJoylarvaRestoranlar/bg.png");
   background-size: cover;
+  background-position: center;
   position: relative;
   width: 100%;
   height: 100vh;
@@ -28,7 +29,7 @@ header section p.h1-subtitle {
 #popular-places .card {
   position: relative;
   width: 100%;
-  margin: 30px;
+  padding: 30px;
   overflow: hidden;
 }
 #popular-places .card p {

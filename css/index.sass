@@ -1,6 +1,7 @@
 header
   background-image: url('../images/index/bg.png')
   background-size: cover
+  background-position: center
   position: relative
   width: 100%
   height: 100vh
@@ -53,9 +54,9 @@ header
   .card
     position: relative
     width: 100%
-    margin: 30px
+    padding: 30px
     overflow: hidden
-    p
+    p, .btn
       position: absolute
       left: 0
       top: -100%
@@ -67,7 +68,7 @@ header
       transition: 0.5s
     &:hover img
       opacity: 0.4  
-    &:hover p
+    &:hover p, .btn
       left: 50%
       top: 50%
       transform: translate(-50%, -50%)

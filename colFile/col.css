@@ -6,6 +6,8 @@
     color: var(--white);
 }
 body{
+    position: relative;
+    width: 100%;
     background-color: var(--background);
 }
 html{
@@ -33,6 +35,10 @@ html{
 .btn:hover{
     background-color: var(--btnBg);
     color: var(--white);
+}
+img{
+    object-fit: cover;
+    object-position: center;
 }
 :root{
     --orange: #FFB800;

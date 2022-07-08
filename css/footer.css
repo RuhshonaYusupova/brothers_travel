@@ -3,7 +3,7 @@ footer {
   padding-top: 30px;
 }
 footer .parent > [class*=col-] {
-  margin: 20px 0px;
+  padding: 20px 10px;
 }
 footer img {
   padding-bottom: 10px;
@@ -16,8 +16,7 @@ footer .p {
   text-align: center;
   font-weight: 400;
 }
-footer .p .footer_h1 {
-  font-size: 35px;
+footer .footer_h1 {
   padding: 10px 0;
 }
 footer li {

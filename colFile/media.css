@@ -4,22 +4,158 @@
 }  
 
 @media (max-width: 1200px){
-
+    header nav .navbar a{
+        font-size: 16px;
+        padding: 0px 20px;
+    }
+    header nav .navbar select{
+        font-size: 16px;
+        padding: 0px 20px;
+    }
 }  
 
 @media (max-width: 992px) {
-    .navbar{
-        display: none;
-    }
+    
     .parent > [class*="col-"]{
         text-align: center;
      }
+    header nav .navbar a{
+        font-size: 12px;
+        padding: 0px 5px;
+    }
+    header nav .navbar select{
+        font-size: 12px;
+        padding: 0px 5px;
+    }
+    header section p.h1-title{
+        font-size: 30px;
+        letter-spacing: 1px;
+    }
+    header section p.h1-subtitle{
+        font-size: 40px;
+        letter-spacing: 1px;
+    }
+    #about .about-card {
+        padding: 50px;
+      }
+    #about .about-card h1 {
+        font-size: 25px;
+        color: red;
+    }
+    #about .about-card p {
+        font-size: 14px;
+        line-height: 20px;
+        padding: 20px 0px;
+    }
+    #about .about-card a {
+        font-size: 18px;
+        padding: 10px 50px;
+    }
 }   
 
 @media (max-width: 768px){
+    header nav .navbar a{
+        display: none;
+    }
+    header nav .navbar select{
+        display: none;
+    }
+    header nav .navbar .navResIcon{
+        display: block;
+    }
+    header section p.h1-title{
+        font-size: 25px;
+        letter-spacing: 1px;
+    }
+    header section p.h1-subtitle{
+        font-size: 35px;
+        letter-spacing: 1px;
+    }
+    #about .about-card {
+        padding: 30px;
+      }
+    #about .about-card h1 {
+        font-size: 25px;
+        color: red;
+    }
+    #about .about-card p {
+        font-size: 14px;
+        line-height: 24px;
+        padding: 20px 0px;
+    }
+    #about .about-card a {
+        font-size: 16px;
+        padding: 10px 50px;
+    }
+    footer .parent > [class*=col-] {
+        padding-top: 10px;
+      }
+    footer .p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    footer .footer_h1 {
+        font-size: 25px;
+        padding: 10px 0;
+    }
+    footer li {
+        padding-top: 10px;
+    }
+    footer li a {
+        font-size: 16px;
+    }
+    footer li p {
+        font-size: 14px;
+    }
+    footer li i {
+        padding-right: 15px;
+        font-size: 20px;
+    }
+    .copyright {
+        padding-top: 20px;
+    }
+    .copyright p {
+        font-size: 18px;
+        padding: 20px 0px;
+    }
     
 }
 
 @media (max-width: 576px){
+    .container{
+        width: 90%;
+    }
+    header section p.h1-title{
+        font-size: 20px;
+        letter-spacing: 1px;
+    }
+    header section p.h1-subtitle{
+        font-size: 25px;
+        letter-spacing: 1px;
+        text-align: center;
+    }
+    #about .about-card {
+        padding: 20px;
+      }
+    #about .about-card h1 {
+        font-size: 20px;
+        color: red;
+    }
+    #about .about-card p {
+        font-size: 12px;
+        line-height: 20px;
+        padding: 20px 0px;
+    }
+    #about .about-card a {
+        font-size: 14px;
+        padding: 10px 50px;
+    }
+    .h1 {
+        font-size: 25px;
+    }
+    #popular-places .card, #popular-restaurants .card, #transports .card {
+        padding: 10px;
+    }
+      
     
 }
